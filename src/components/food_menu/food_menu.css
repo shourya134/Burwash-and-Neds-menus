@@ -33,7 +33,7 @@
     margin-right: 13%;
     margin-top: 8%;
     padding-top: 2%;
-    padding-bottom: 10%;
+    box-shadow: 3px 4px 3px black;
     background-color: rgb(237, 237, 237);
     width: 60%;
     border-top-left-radius: 1%;
@@ -52,7 +52,7 @@
     text-align: center;
     letter-spacing: 0.5px;
     color: #735c51;;
-    font-family:"Roboto";
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font: size 40px;;
     width: 100%;
     position:relative;
@@ -64,7 +64,7 @@
     display: block;
     letter-spacing: 0.5px;
     color: #000000;;
-    font-family:"Roboto";
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:15px;
     width: auto;
     position:relative;
@@ -91,7 +91,7 @@
   display: inline-block;
   position:relative;
   justify-content: center;
-  font-family:monospace, monospace;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 28px;
   color: #88746a;
   border:none;
@@ -99,15 +99,27 @@
   box-shadow: 0 3px #813f3631;
 }
 
+
+.catagory{
+    margin-left: 0%;
+    width: 100%;
+    display: block;
+    position:relative;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: #000000;
+    text-align: left;
+}
 .content {
   margin-left: 0%;
   width: 100%;
-  display: inline;
+  display: block;
   position:relative;
   justify-content: center;
-  font-family:monospace, monospace;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 21px;
-  color: #88746a;
+  color: #000000;
   text-align: left;
 }
 
@@ -116,7 +128,7 @@
   display: inline-block;
   position:relative;
   justify-content: center;
-  font-family:monospace, monospace;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 29px;
   word-spacing: 50px;
   color: #a30134;
@@ -131,7 +143,7 @@
   margin-left: 0%;
   display: flex;
   position: relative;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   color: rgba(19, 17, 14, 0.847);
   
@@ -162,7 +174,7 @@
     margin-top: 7%;
     padding-top: 2%;
     padding-bottom: 10%;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(235, 235, 235);
     width: 80%;
     
     
@@ -170,14 +182,16 @@
   .food_details {
    
     display: block;
-    text-align: center;
     letter-spacing: 0.5px;
-    color: #735c51;;
-    font-family:"Scala Sans", sans-serif;
-    font-size:10px;
-    width: 100%;
+    color: #000000;;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:11px;
+    width: auto;
     position:relative;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+    margin-left: 0%;
+    padding-left: 40px;
+    height: auto;
   }
 
   .outline {
@@ -195,9 +209,9 @@
     display: inline;
     position:relative;
     justify-content: center;
-    font-family:monospace, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
-    color: #88746a;
+    color: rgb(136,116,106);
     border:none;
     box-shadow: none;
   }
@@ -208,9 +222,9 @@
     display: inline;
     position:relative;
     justify-content: center;
-    font-family:monospace, monospace;
+    font-family:mVerdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
-    color: #88746a;
+    color: #000000;
     text-align: left;
   }
   
@@ -219,10 +233,10 @@
     display: inline;
     position:relative;
     justify-content: center;
-    font-family:monospace, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 29px;
     word-spacing: 50px;
-    color: #a30134;
+    color:rgb(163,2,52);
     border:none;
     border-top-right-radius: 5px;
     box-shadow: none;
@@ -234,9 +248,9 @@
     margin-left: 0%;
     display: flex;
     position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    color: rgba(19, 17, 14, 0.847);
+    color: rgba(0, 0, 0, 0.847);
     
   
   }

@@ -10,21 +10,21 @@ class Breakast {
 }
 
 const monday_breakfast = new Breakast(
-    ['Scrambled Eggs (VEG)(GF)', 'Soft-Boiled Eggs (VEG)(GF)']// eggs
+    ['Scrambled Eggs (VEG)(GF)', ' Soft-Boiled Eggs (VEG)(GF)']// eggs
     , ['Fried Eggs (VEG)(GF)'] //eggs_specialty
     , ['Pancakes (VEG)'] //sweet_breakfast
     , ['Plain home fries (VEG)(GF)'] //potato
-    , ['Bacon (GF)','Beef Sausage Patty (H)(GF)(DF)'] //protien
-    , ['Roasted Sweet Potato,Black Beans, & Poblano (VEG)(GF)','Spiced Tofu Scramble (GF)(VGN)'] //plant_based
+    , ['Bacon (GF)',' Beef Sausage Patty (H)(GF)(DF)'] //protien
+    , ['Roasted Sweet Potato,Black Beans, & Poblano (VEG)(GF)',' Spiced Tofu Scramble (GF)(VGN)'] //plant_based
 )
 
 const tuesday_breakfast = new Breakast(
-    ['Scrambled Eggs (VEG)(GF)', 'Soft-Boiled Eggs (VEG)(GF)']//eggs
+    ['Scrambled Eggs (VEG)(GF)', ' Soft-Boiled Eggs (VEG)(GF)']//eggs
     , ['Mexican Omelette (VEG)(GF)'] //eggs_specialty
     , ['Belgian Waffels (VEG)']//sweet_breakfast
     , ['Potato Tots (VEG)(GF)'] //potato
-    , ['Bacon (GF)','Chicken Sausage Patty(H)']//protien
-    , ['Baked Beans (VEG)(GF)','Spiced Tofu Scramble (GF)(VGN)'] //plant_based
+    , ['Bacon (GF)',' Chicken Sausage Patty(H)']//protien
+    , ['Baked Beans (VEG)(GF)',' Spiced Tofu Scramble (GF)(VGN)'] //plant_based
 )
 
 const wednesday_breakfast = new Breakast(
