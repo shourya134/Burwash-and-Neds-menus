@@ -2,21 +2,77 @@
     display: block;
     position: relative;
     letter-spacing: 0.5px;
-    background:rgb(71, 42, 43);;
-   
-    font-size: 2rem;
+    background:#806C62;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 100%;
     border-top: 5px solid rgb(60, 54, 54);
-    
     height: 30rem;
 }
 
 .footer-text{
-    margin-left: 0%;
-    margin-top: 20%;
-    font-size: 2rem;
+    margin-left: 5%;
+    margin-top: 10rem;
+    font-size: 20px;
+    font-weight: 00;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-weight: 5;
+}
+
+.footer-heading {
+    margin-top: 12%;
+    display: block;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #ffffff;;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 500;
+    position:relative;
+    margin-bottom: -1%;
+    margin-left: 2%;
+    
+    
+}
+
+.content-footer {
+    
+    display: block;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #ffffff;;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+    position:relative;
+    margin-bottom: -1%;
+    margin-left: 2%;
+
+}
+
+.content-footer-2 {
+    display:flex;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #ffffff;;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 100;
+    position:relative;
+    margin-bottom: -1%;
+    margin-left: 2%;
+
+
+}
+
+.for-mail {
+    display: flex;
+    margin-left: 42%;
+    margin-top: -4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
