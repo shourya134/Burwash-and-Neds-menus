@@ -3,7 +3,7 @@ import { weeks } from './menu_data'
 import './food_menu.css'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import dininghall from './dininghall.jpg'
+
 
 const {useState,Fragment} = React;
 
@@ -57,7 +57,7 @@ function Food_menu () {
     //add input for date
     const [date, setDate] = useState(new Date());
     // add input for defailt state
-    const [active, setActive] = useState("");
+    const [active, setActive] = useState("1");
     const handleClick = (event) => {setActive(event.target.id);}
     return (
         
@@ -96,7 +96,7 @@ function Food_menu () {
                         <a>Sides:<br /> {get_week(date)[0][1][get_week(date)[1]].sides}</a><br /><br />
                         <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a><br /><br />
                         <a>Soup:<br />{get_week(date)[0][3][get_week(date)[1]].soup}</a><br /><br />
-                        <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a><br /><br />
+                        <a>Food Bar:<br /> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a><br /><br />
                     </ul>
                 </div>
                 <div className={active === "3" ? 'serving' : 'vanish'}>
@@ -104,9 +104,9 @@ function Food_menu () {
                         <a>Entree:<br /> {get_week(date)[0][2][get_week(date)[1]].entree} </a><br /><br />
                         <a>Veg entree:<br /> {get_week(date)[0][2][get_week(date)[1]].veg_entree}</a><br /><br />
                         <a>Sides:<br /> {get_week(date)[0][2][get_week(date)[1]].sides}</a><br /><br />
-                        <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a>
+                        <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a><br /><br />
                         <a>Soup: <br />{get_week(date)[0][3][get_week(date)[1]].soup}</a><br /><br />
-                        <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a><br /><br />
+                        <a>Food Bar:<br /> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a><br /><br />
                         
                     </ul>   
                 </div>

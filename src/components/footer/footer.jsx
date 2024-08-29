@@ -4,7 +4,9 @@ function Footer() {
   
   return (
     <div class='for-footer'>
-    <nav className='for-footer'></nav>
+      <nav >
+        
+      </nav>
     </div>
   );
 };
