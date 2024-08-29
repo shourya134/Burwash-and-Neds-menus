@@ -34,11 +34,10 @@
     margin-top: 8%;
     padding-top: 2%;
     box-shadow: 3px 4px 3px black;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(255, 255, 255);
     width: 60%;
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
-    height: auto;
   
 }
 
@@ -55,8 +54,11 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font: size 40px;;
     width: 100%;
+    font-weight: 500;
     position:relative;
     margin-bottom: -1%;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);;
+    
 }
 
 .food_details {
@@ -97,6 +99,7 @@
   border:none;
   background-color: #813f3631;
   box-shadow: 0 3px #813f3631;
+  
 }
 
 
@@ -121,6 +124,7 @@
   font-size: 21px;
   color: #000000;
   text-align: left;
+  
 }
 
 .selected {
@@ -141,11 +145,14 @@
 
 .serving {
   margin-left: 0%;
+  
   display: flex;
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  color: rgba(19, 17, 14, 0.847);
+  color: rgba(0, 0, 0, 0.847);
+  background-color: rgba(114, 99, 92, 0.395);
+  
   
 
 }

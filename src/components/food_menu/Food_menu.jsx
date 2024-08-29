@@ -69,7 +69,7 @@ function Food_menu () {
                 
                     
                 <h1 className='food-menu-heading'>Burwash Dining Hall Menu</h1><br />
-                <p className='food_details'><a>LUNCH AND DINNER COMMON MENU ITEMS INCLUDE SOUPS, BEVERAGES, FOOD BAR ITEMS (PIZZA/PANINI), SALAD BAR, WHOLE FRUIT AND DESSERTS <br /></a> <br />Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan <br /> <br /> PICK A DATE : <DatePicker wrapperClassName="datePicker"  selected={date} onChange={(date) => setDate(date)} /> </p>
+                <p className='food_details'>{/*<a>LUNCH AND DINNER COMMON MENU ITEMS INCLUDE SOUPS, BEVERAGES, FOOD BAR ITEMS (PIZZA/PANINI), SALAD BAR, WHOLE FRUIT AND DESSERTS <br /></a>*/} <br />Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan <br /> <br /> PICK A DATE : <DatePicker minDate={init_date} wrapperClassName="datePicker"  selected={date} onChange={(date) => setDate(date)} /> </p>
                 
                 <div className='outline'>
                     
