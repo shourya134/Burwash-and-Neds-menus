@@ -70,9 +70,14 @@ function Food_menu () {
                     
                 <h1 className='food-menu-heading'>Burwash Dining Hall Menu</h1><br />
                 <p className='food_details'>
-                    {/*<a>LUNCH AND DINNER COMMON MENU ITEMS INCLUDE SOUPS, BEVERAGES, FOOD BAR ITEMS (PIZZA/PANINI), SALAD BAR, WHOLE FRUIT AND DESSERTS <br /></a>*/}
-                    <a className='link' href='https://www.vicu.utoronto.ca/hospitality-services/'> Hospitality Services </a> / <a className='link' href='https://www.vicu.utoronto.ca/hospitality-services/student-meal-plans-and-dining-hall-menus/'> Student Meal Plans & Dining Hall Menus </a> / Burwash Dining hall <br />
-                     <br />Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan <br /> <br /> PICK A DATE : <DatePicker minDate={init_date} wrapperClassName="datePicker"  selected={date} onChange={(date) => setDate(date)} /> </p>
+                    
+                    <a className='link' href='https://www.vicu.utoronto.ca/hospitality-services/'> Hospitality Services </a> / <a className='link' href='https://www.vicu.utoronto.ca/hospitality-services/student-meal-plans-and-dining-hall-menus/'> Student Meal Plans & Dining Hall Menus </a> / Burwash Dining hall <br /> <br />
+
+                    For over 100 years, Burwash Dining Hall has been a welcoming space for students to connect and enjoy a diverse, all-you-care-to-eat menu featuring everything from Belgian waffles to vegetarian and Halal options.
+                    <br />Click the calendar below to discover our upcoming menus and bon appétit!
+                    <br />Pick a Date : <DatePicker className='calander' minDate={init_date} wrapperClassName="datePicker"  selected={date} onChange={(date) => setDate(date)} /> <br />
+                        <br /> Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan
+                    </p>
                 
                 <div className='outline'>
                     
@@ -84,32 +89,32 @@ function Food_menu () {
                 </div>
                 <div className={active === "1" ? 'serving' : 'vanish'}>
                     <ul className='content'>
-                        <a>Eggs: <br /> {get_week(date)[0][0][get_week(date)[1]].eggs} </a><br /><br />
-                        <a>Eggs specialty:<br /> {get_week(date)[0][0][get_week(date)[1]].eggs_specialty}</a><br /><br />
-                        <a>Sweet breakfast:<br /> {get_week(date)[0][0][get_week(date)[1]].sweet_breakfast}</a><br /><br />
-                        <a>Potato:<br /> {get_week(date)[0][0][get_week(date)[1]].potato}</a><br /><br />
-                        <a>Protien:<br /> {get_week(date)[0][0][get_week(date)[1]].protien}</a><br /><br />
-                        <a>Plant Based:<br /> {get_week(date)[0][0][get_week(date)[1]].plant_based}</a><br /><br />
+                        <a> <p style={{fontWeight: 600,marginBottom:2}}>Eggs:</p>{get_week(date)[0][0][get_week(date)[1]].eggs} </a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Eggs specialty:</p> {get_week(date)[0][0][get_week(date)[1]].eggs_specialty}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Sweet breakfast:</p> {get_week(date)[0][0][get_week(date)[1]].sweet_breakfast}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Potato:</p> {get_week(date)[0][0][get_week(date)[1]].potato}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Protien:</p> {get_week(date)[0][0][get_week(date)[1]].protien}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Plant Based:</p> {get_week(date)[0][0][get_week(date)[1]].plant_based}</a> 
                     </ul>
                 </div>
                 <div className={active === "2" ? 'serving' : 'vanish'}>
                     <ul className='content'>
-                        <a>Entree:<br /> {get_week(date)[0][1][get_week(date)[1]].entree} </a><br /><br />
-                        <a>Veg entree:<br /> {get_week(date)[0][1][get_week(date)[1]].veg_entree}</a><br /><br />
-                        <a>Sides:<br /> {get_week(date)[0][1][get_week(date)[1]].sides}</a><br /><br />
-                        <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a><br /><br />
-                        <a>Soup:<br />{get_week(date)[0][3][get_week(date)[1]].soup}</a><br /><br />
-                        <a>Food Bar:<br /> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a><br /><br />
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Entree:</p> {get_week(date)[0][1][get_week(date)[1]].entree} </a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Veg entree:</p> {get_week(date)[0][1][get_week(date)[1]].veg_entree}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Sides:</p> {get_week(date)[0][1][get_week(date)[1]].sides}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Gluten Free:</p> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Soup:</p>{get_week(date)[0][3][get_week(date)[1]].soup}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Food Bar:</p> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a> 
                     </ul>
                 </div>
                 <div className={active === "3" ? 'serving' : 'vanish'}>
                     <ul className='content'>
-                        <a>Entree:<br /> {get_week(date)[0][2][get_week(date)[1]].entree} </a><br /><br />
-                        <a>Veg entree:<br /> {get_week(date)[0][2][get_week(date)[1]].veg_entree}</a><br /><br />
-                        <a>Sides:<br /> {get_week(date)[0][2][get_week(date)[1]].sides}</a><br /><br />
-                        <a>Gluten Free:<br /> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a><br /><br />
-                        <a>Soup: <br />{get_week(date)[0][3][get_week(date)[1]].soup}</a><br /><br />
-                        <a>Food Bar:<br /> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a><br /><br />
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Entree:</p> {get_week(date)[0][2][get_week(date)[1]].entree} </a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Veg entree:</p> {get_week(date)[0][2][get_week(date)[1]].veg_entree}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Sides:</p> {get_week(date)[0][2][get_week(date)[1]].sides}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Gluten Free:</p> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Soup: </p>{get_week(date)[0][3][get_week(date)[1]].soup}</a> 
+                        <a><p style={ {fontWeight: 600,marginBottom:2}}>Food Bar:</p> {get_week(date)[0][3][get_week(date)[1]].food_bar}</a> 
                         
                     </ul>   
                 </div>

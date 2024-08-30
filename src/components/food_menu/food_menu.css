@@ -11,9 +11,7 @@
   background-size: cover;
   zoom: none;
   }
-.calender {
-  margin-left: 10%;
-}
+
 .image{
     text-align: right;
     margin-left: auto;
@@ -35,7 +33,7 @@
     padding-top: 2%;
     box-shadow: 3px 4px 3px black;
     background-color: rgb(255, 255, 255);
-    width: 60%;
+    width: 65%;
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
   
@@ -50,14 +48,14 @@
     display: block;
     text-align: center;
     letter-spacing: 0.5px;
-    color: #000000;;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #472a2b;
+    font-family:'Scala Sans', sans-serif;
     font: size 40px;
     width: 100%;
-    font-weight: 500;
+    font-weight: 800;
     position:relative;
     margin-bottom: -1%;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);;
+    
     
 }
 
@@ -65,9 +63,9 @@
    
     display: block;
     letter-spacing: 0.5px;
-    color: #000000;;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:15px;
+    color: #472a2b;
+    font-family:'Scala Sans', sans-serif;
+    font-size:20px;
     width: auto;
     position:relative;
     margin-bottom: 3%;
@@ -93,7 +91,7 @@
   display: inline-block;
   position:relative;
   justify-content: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Scala Sans', sans-serif;
   font-size: 28px;
   color: #88746a;
   border:none;
@@ -109,7 +107,7 @@
     display: block;
     position:relative;
     justify-content: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Scala Sans', sans-serif;
     font-size: 21px;
     color: #000000;
     text-align: left;
@@ -120,9 +118,9 @@
   display: block;
   position:relative;
   justify-content: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Scala Sans', sans-serif;
   font-size: 21px;
-  color: #000000;
+  color: #472a2b;
   text-align: left;
   
 }
@@ -132,12 +130,11 @@
   display: inline-block;
   position:relative;
   justify-content: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Scala Sans', sans-serif;
   font-size: 29px;
   word-spacing: 50px;
   color: #a30134;
   border:none;
-  
   box-shadow: 0 3px #a30134;
   background-color: #813f3631;
 
@@ -148,9 +145,9 @@
   
   display: flex;
   position: relative;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Scala Sans', sans-serif;
   font-size: medium;
-  color: rgba(0, 0, 0, 0.847);
+  color: #472a2b;
   background-color: rgba(114, 99, 92, 0.395);
   
   
@@ -159,7 +156,25 @@
 
 .link {
   text-decoration:underline;
-  color: #000000;
+  color: #a30134;
+}
+
+.calander {
+  width: auto;
+  display: flex;
+  position:center;
+  justify-content:center;
+  font-family:'Scala Sans', sans-serif;
+  font-size: 20px;
+  color: #813f36;
+  border:none;
+  background-color: #813f363e;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 600;
+  border-radius: 20px;
+  left: 100%;
+
 }
 
 
@@ -195,7 +210,7 @@
     display: block;
     letter-spacing: 0.5px;
     color: #000000;;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Scala Sans', sans-serif;
     font-size:11px;
     width: auto;
     position:relative;
@@ -220,7 +235,7 @@
     display: inline;
     position:relative;
     justify-content: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Scala Sans', sans-serif;
     font-size: 28px;
     color: rgb(136,116,106);
     border:none;
@@ -233,7 +248,7 @@
     display: inline;
     position:relative;
     justify-content: center;
-    font-family:mVerdana, Geneva, Tahoma, sans-serif;
+    font-family:'Scala Sans', sans-serif;
     font-size: 21px;
     color: #000000;
     text-align: left;
@@ -244,7 +259,7 @@
     display: inline;
     position:relative;
     justify-content: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Scala Sans', sans-serif;
     font-size: 29px;
     word-spacing: 50px;
     color:rgb(163,2,52);
@@ -259,13 +274,21 @@
     margin-left: 0%;
     display: flex;
     position: relative;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Scala Sans', sans-serif;
     font-size: medium;
     color: rgba(0, 0, 0, 0.847);
     
   
   }
   
+}
+
+@font-face {
+  font-family: 'Scala Sans';
+  src: url('./ScalaSans.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 
