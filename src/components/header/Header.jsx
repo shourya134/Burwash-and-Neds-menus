@@ -3,9 +3,7 @@ import './header.css'
 import logo from './logo.svg';
 import hands from './hands.png'
 import ec from './eclogo.svg'
-import vic from './viclogo.svg'
-import { FaAngleDown } from "react-icons/fa";
-import Dropdown from 'react-bootstrap/Dropdown';
+
 const {useState} = React;
 
 function Header() {
