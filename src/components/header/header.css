@@ -94,15 +94,15 @@
     display: flex;
     position: static;
     justify-content: center;
-    width: 9rem;
+    width: 10rem;
     background-color: #5e5049;
     color: #fff;
     display: flex;
-    line-height: 2.5rem;
+    line-height: 3rem;
     font-family: 'Scala Sans';
     font-weight: 600;
     border: none;
-    font-size: 17px;
+    font-size: 18px;
     z-index: 300;
     text-decoration: none;
     height: 3rem;
@@ -139,6 +139,7 @@
     border: none;
     font-size: 17px;
     z-index: 300;
+    text-decoration: none;
     
     
 }

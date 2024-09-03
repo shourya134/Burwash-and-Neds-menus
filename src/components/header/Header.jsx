@@ -42,7 +42,7 @@ function Header() {
             <button className="quick-link" onClick={toggleClass} > 
                 Quick Links 
             </button> 
-            <ul>  
+            <ul style={{marginTop:'0'}}>  
                 <a href="https://www.acorn.utoronto.ca/" className={isActive ? 'off': 'on'}> 
                 ACORN
                 {isActive}</a> 
