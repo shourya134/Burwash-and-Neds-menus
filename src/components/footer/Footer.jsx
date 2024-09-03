@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { FaInstagram,FaSquareXTwitter,FaFacebook,FaLinkedin } from "react-icons/fa6";
+
 function Footer() {
   
   return (
@@ -19,10 +19,7 @@ function Footer() {
         
         <div className='for-mail'><a href="https://www.vicu.utoronto.ca/subscribe-to-our-mailing-list/" className='subscribe'>Subscribe to our mailing list </a></div>
         <div className='socials'>
-          <a className='icons' href="https://www.linkedin.com/school/university-of-toronto---victoria-university/" aria-label="LinkedIn"><FaLinkedin size={'25px'} /></a>
-          <a className='icons' href="https://twitter.com/VicCollege_UofT" aria-label="Twitter"><FaSquareXTwitter size={'25px'}/></a>
-          <a className='icons' href="https://www.facebook.com/vicu.utoronto/" aria-label="Facebook"><FaFacebook size={'25px'}/></a>
-          <a className='icons' href="https://www.instagram.com/viccollege/?hl=en" aria-label="Instagram"><FaInstagram size={'25px'}/></a>
+          
         </div>
       
         
