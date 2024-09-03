@@ -3,6 +3,7 @@ import './header.css'
 import logo from './logo.svg';
 import hands from './hands.png'
 import ec from './eclogo.svg'
+import vic from './viclogo.svg'
 
 const {useState} = React;
 
