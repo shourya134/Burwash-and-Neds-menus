@@ -1,86 +1,181 @@
 .for-footer{
-    display: block;
+    display: flex;
     position: relative;
     letter-spacing: 0.5px;
     background:#806C62;
     font-family: 'Scala Sans';
     color: rgb(255, 255, 255);
     width: 100%;
-    border-top: 5px solid rgb(60, 54, 54);
-    height: 30rem;
+    height: auto;
+    justify-content: center;
+  
+    
+    
 }
 
 .footer-text{
-    margin-left: 5%;
-    margin-top: 10rem;
-    font-size: 20px;
-    font-weight: 00;
+
+    margin-top: 16.5rem;
+
     font-family: 'Scala Sans';
-    color: rgb(255, 255, 255);
-    font-weight: 5;
+    position:static;
 }
 
 .footer-heading {
-    margin-top: 12%;
-    display: block;
-    text-align: left;
-    letter-spacing: 0.5px;
-    color: #ffffff;;
-    font-family:'Scala Sans';
+    margin-top: 0;
+    line-height: 1.625rem;
     font-size: 20px;
-    width: 100%;
-    font-weight: 500;
-    position:relative;
-    margin-bottom: -1%;
-    margin-left: 2%;
-    
+    font-weight: 100;
     
 }
 
 .content-footer {
     
-    display: block;
+    display: flex;
     text-align: left;
     letter-spacing: 0.5px;
     color: #ffffff;;
     font-family:'Scala Sans';
-    font-size: 20px;
-    width: 100%;
-    font-weight: 700;
-    position:relative;
-    margin-bottom: -1%;
-    margin-left: 2%;
+    font-size: 18px;
+    
+    font-weight: 600;
+    margin-bottom: 2%;
+   
+    
 
 }
 
 .content-footer-2 {
     display:flex;
     text-align: left;
-    letter-spacing: 0.5px;
     color: #ffffff;;
     font-family:'Scala Sans';
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
-    font-weight: 100;
+    font-weight: 00;
     position:relative;
-    margin-bottom: -1%;
-    margin-left: 2%;
+    margin-bottom: 2%;
+    
+    
+    
 
 
 }
 
 .for-mail {
     display: flex;
-    margin-left: 42%;
-    margin-top: -4%;
+    position: static;
+    
+    
+  
+    border: none;
+    margin-top: 17rem;
+    margin-bottom: 9rem;
+    line-height: 1.5;
+    text-align: center;
+    width: auto;
+    margin-left: 18.4%;
+    box-sizing: border-box;
+
+}
+
+.subscribe {
+    background-color: #ffffff;
+    color: #806C62;
+    padding: 0.5rem 2.5rem;
+    text-decoration: none;
     font-family: 'Scala Sans';
-    font-size: 20px;
+    font-size: 1rem;
+    justify-content: right;
+    text-align: center;
+    transition: 0.3s;
+    
+
+}
+.subscribe:hover {
+    background-color: #4a3e38;
+    color: #ffffff;
+}
+.copyright {
+    
+
+    font-family: 'Scala Sans';
+    text-align: center;
+    background-color: #806C62;
+    color:#ffffff;
+    padding-bottom: 2rem;
+}
+
+.socials {
+    display: block;
+    color:#ffffff;
+    border: none;
+    margin-top: 18rem;
+    margin-left: 22%;
+    justify-content: center;
+    width: auto;;
+    
+}
+
+.icons {
+    padding: .5rem;
+    
+    color: #ffffff;
+    
+}
+
+
+
+@media (max-width: 1200px) {
+    .for-footer{
+        display: block;
+        
+    }
+
+    .footer-text{
+        margin-left: -7%;
+        padding-top: 15rem;
+        margin-top: 0;
+        text-align: center;
+    
+        font-family: 'Scala Sans';
+        position:static;
+    }
+    .content-footer{
+        display: block;
+        text-align: center;
+    }
+    .content-footer-2{
+        display: block;
+        text-align: center;
+    }
+    .for-mail{
+        
+        margin-top: 2rem;
+        margin-left: 0;
+        justify-content: center;
+        margin-bottom: 0rem;
+    }
+    .socials {
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: 2rem;
+    }
+
+}
+
+@media (max-width:380px) {
+    .footer-text{
+        padding-top: 20rem;
+    }
+    
 }
 
 @font-face {
     font-family: 'Scala Sans';
     src: url('./ScalaSans.otf') format('opentype');
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-display: swap;
   }

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 .App {
-  background-image: url("./dininghall.jpg");
+  background-image: url("./dininghall-2.jpg");
   background-size: cover;
   height: 52rem;
   position: relative;
@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   zoom: none;
+  margin-top: -10px;
   }
 
 .image{
@@ -23,11 +24,11 @@
     width: 100%;
 }
 .forheader {
-  z-index: 1;
+    z-index: 2;
     border-top: 1px solid rgba(71, 42, 43, .15);
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 18%;
     right: auto;
     top: 5%;
     padding-top: 2%;
@@ -41,6 +42,7 @@
 
 .vanish {
   display: none;
+  
 }
 
 .food-menu-heading {
@@ -61,15 +63,14 @@
 
 .food_details {
    
-    display: block;
+    display: flexbox;
     letter-spacing: 0.5px;
     color: #472a2b;
     font-family:'Scala Sans', sans-serif;
     font-size:20px;
     width: auto;
     position:relative;
-    margin-bottom: 3%;
-    margin-left: 0%;
+   
     padding-left: 40px;
     height: auto;
     
@@ -97,6 +98,7 @@
   border:none;
   background-color: #813f3631;
   box-shadow: 0 3px #813f3631;
+ 
   
 }
 
@@ -111,6 +113,7 @@
     font-size: 21px;
     color: #000000;
     text-align: left;
+    
 }
 .content {
   margin-left: 0%;
@@ -122,6 +125,8 @@
   font-size: 21px;
   color: #472a2b;
   text-align: left;
+  
+  
   
 }
 
@@ -137,6 +142,7 @@
   border:none;
   box-shadow: 0 3px #a30134;
   background-color: #813f3631;
+  transition:ease-in 0.5s;
 
 }
 
@@ -151,6 +157,8 @@
   background-color: rgba(114, 99, 92, 0.395);
   
   
+  
+  
 
 }
 
@@ -160,48 +168,57 @@
 }
 
 .calander {
-  width: auto;
+  width: 100%;
   display: flex;
-  position:center;
-  justify-content:center;
+  position:relative;
+  align-items: center;
   font-family:'Scala Sans', sans-serif;
-  font-size: 20px;
-  color: #813f36;
-  border:none;
-  background-color: #813f363e;
+  font-size: 28px;
+  color: #5f2e28;
+  border:solid 2px #02020252;
+  background-color: rgba(114, 99, 92, 0.395);
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   font-weight: 600;
-  border-radius: 20px;
-  left: 100%;
+  border-radius: 0.4rem;
+  left: 10%;
+  
 
 }
 
+.type{
+  font-weight: 600;
+  margin-bottom:2px;
+  text-decoration: underline;
+}
 
-@media (max-width: 62rem) {
+
+@media (max-width: 1200px) {
 
   
   .App {
-    background-image: url("./dininghall.jpg");
+    background-image: url("./dininghall-2.jpg");
     background-size: cover;
-    height: 60rem;
+    height: 52rem;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     zoom: none;
+   
     }
+
+  
   .forheader {
     z-index: 1;
     border-top: 1px solid rgba(71, 42, 43, .15);
     display: inline-block;
-    position: relative;
-    left: 10%;
-    right: auto;
+    position: center;
+    left: 1%;
     margin-top: 7%;
     padding-top: 2%;
     background-color: rgb(235, 235, 235);
-    width: 80%;
+    width: 98%;
     
     
   }
@@ -209,14 +226,15 @@
    
     display: block;
     letter-spacing: 0.5px;
-    color: #000000;;
+    color: #472a2b;
     font-family:'Scala Sans', sans-serif;
-    font-size:11px;
+    font-size:15px;
     width: auto;
     position:relative;
     margin-bottom: 3%;
-    margin-left: 0%;
-    padding-left: 40px;
+    
+    padding-left: 5%;
+    padding-right: 3%;
     height: auto;
   }
 
@@ -237,7 +255,7 @@
     justify-content: center;
     font-family:'Scala Sans', sans-serif;
     font-size: 28px;
-    color: rgb(136,116,106);
+    color: #88746a;
     border:none;
     box-shadow: none;
   }
@@ -249,9 +267,10 @@
     position:relative;
     justify-content: center;
     font-family:'Scala Sans', sans-serif;
-    font-size: 21px;
-    color: #000000;
+    font-size: 17px;
+    color: #472a2b;
     text-align: left;
+    padding-right: 2%;
   }
   
   .selected {
@@ -277,10 +296,15 @@
     font-family: 'Scala Sans', sans-serif;
     font-size: medium;
     color: rgba(0, 0, 0, 0.847);
+    background-color: rgba(114, 99, 92, 0.395);
     
   
   }
-  
+  .calander{
+    left: 0%;
+    font-size: 21px;
+    letter-spacing: 6.5px;
+  }
 }
 
 @font-face {

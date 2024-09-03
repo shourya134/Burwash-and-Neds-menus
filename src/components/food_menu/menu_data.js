@@ -199,7 +199,7 @@ const w1_monday_common_items = new dinner_and_lunch(
 const w1_tuesday_common_items = new dinner_and_lunch(
     ['Nacho Bar',<br />, 'Meat/Three Bean Chili']//gluten_free
     ,['Broccoli & Cheddar (VGN)',<br />,'Hearty Chicken Crockpot (GF)(DF)']//Soup
-    ,['Pizza',<br />,'Pepperoni – Halal','BBQ Chicken','Garden Veggie','Cheese Pizza']//foodbar
+    ,['Pizza',<br />,'Pepperoni (H), ','BBQ Chicken, ','Garden Veggie ']//foodbar
 )
 
 const w1_wednesday_common_items = new dinner_and_lunch(
