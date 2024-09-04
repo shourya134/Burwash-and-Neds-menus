@@ -12,7 +12,7 @@
     "react-datepicker": "^7.3.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -43,6 +43,4 @@
     "nth-check": "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz",
     "postcss": "https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz"
   }
-
-  
 }
