@@ -89,7 +89,7 @@ function Neds () {
                 <div className={active === "1" ? 'serving' : 'vanish'}>
                     <ul className='content'>
                         <p> <p className='type'>Breakfast Sandwich</p>{get_week(date)[0][0][get_week(date)[1]].breakfast_sandwich} </p> 
-                        <p><p className='type'>soup</p> {get_week(date)[0][0][get_week(date)[1]].soup}</p> 
+                        <p><p className='type'>Soup</p> {get_week(date)[0][0][get_week(date)[1]].soup}</p> 
                         <p><p className='type'>Deli Sandwich</p> {get_week(date)[0][0][get_week(date)[1]].deli_sandwich}</p> 
                         <p><p className='type'>Salad</p> {get_week(date)[0][0][get_week(date)[1]].salad}</p> 
                          
