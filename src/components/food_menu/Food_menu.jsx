@@ -45,7 +45,7 @@ function get_week (chosen_date) {
         curr_num = 2
     }
 
-    return([curr_week,num_day,num_week,curr_num])
+    return([curr_week,num_day])
 
 
 };
