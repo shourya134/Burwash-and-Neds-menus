@@ -29,7 +29,7 @@ function Footer() {
     </div>
 
       
-    <div className='copyright'>© 2023 Victoria University. All rights reserved.</div>
+    <div className='copyright'>© 2024 Victoria University. All rights reserved.</div>
     </footer>
     
   );
