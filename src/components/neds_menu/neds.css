@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.App {
+  background-image: url("./Neds.jpg");
+  background-size: cover;
+  height: 52rem;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  zoom: none;
+  margin-top: -10px;
+  }
+
+.image{
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline;
+    z-index: 2;
+    width: 100%;
+}
+.forheader {
+    z-index: 2;
+    border-top: 1px solid rgba(71, 42, 43, .15);
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    right: auto;
+    top: 5%;
+    padding-top: 2%;
+    box-shadow: 3px 4px 3px black;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+  
+}
+
+.vanish {
+  display: none;
+  
+}
+
+.food-menu-heading {
+    
+    display: block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #472a2b;
+    font-family:'Scala Sans', sans-serif;
+    font: size 40px;
+    width: 100%;
+    font-weight: 800;
+    position:relative;
+    margin-bottom: -1%;
+    
+    
+}
+
+.food_details {
+   
+    display: flexbox;
+    letter-spacing: 0.5px;
+    color: #472a2b;
+    font-family:'Scala Sans', sans-serif;
+    font-size:20px;
+    width: auto;
+    position:relative;
+   
+    padding-left: 40px;
+    height: auto;
+    
+    
+
+}
+
+.outline {
+  
+  display: inline-flex;
+  width: 100%;
+ 
+ 
+  
+}
+.box {
+  
+  width: 100%;
+  display: inline-block;
+  position:relative;
+  justify-content: center;
+  font-family:'Scala Sans', sans-serif;
+  font-size: 28px;
+  color: #88746a;
+  border:none;
+  background-color: #813f3631;
+  box-shadow: 0 3px #813f3631;
+ 
+  
+}
+
+
+.catagory{
+    margin-left: 0%;
+    width: 100%;
+    display: block;
+    position:relative;
+    justify-content: center;
+    font-family:'Scala Sans', sans-serif;
+    font-size: 21px;
+    color: #000000;
+    text-align: left;
+    
+}
+.content {
+  margin-left: 0%;
+  width: 100%;
+  display: block;
+  position:relative;
+  justify-content: center;
+  font-family:'Scala Sans', sans-serif;
+  font-size: 21px;
+  color: #472a2b;
+  text-align: left;
+  
+  
+  
+}
+
+.selected {
+  width: 100%;
+  display: inline-block;
+  position:relative;
+  justify-content: center;
+  font-family:'Scala Sans', sans-serif;
+  font-size: 29px;
+  word-spacing: 50px;
+  color: #a30134;
+  border:none;
+  box-shadow: 0 3px #a30134;
+  background-color: #813f3631;
+  transition:ease-in 0.5s;
+
+}
+
+.serving {
+  margin-left: 0%;
+  
+  display: flex;
+  position: relative;
+  font-family: 'Scala Sans', sans-serif;
+  font-size: medium;
+  color: #472a2b;
+  background-color: rgba(114, 99, 92, 0.395);
+  
+  
+  
+  
+
+}
+
+.link {
+  text-decoration:underline;
+  color: #a30134;
+}
+
+.calander {
+  width: 100%;
+  display: flex;
+  position:relative;
+  align-items: center;
+  font-family:'Scala Sans', sans-serif;
+  font-size: 28px;
+  color: #5f2e28;
+  border:solid 2px #02020252;
+  background-color: rgba(114, 99, 92, 0.395);
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  left: 10%;
+  
+
+}
+
+.type{
+  font-weight: 600;
+  margin-bottom:2px;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1200px) {
+
+  
+  .App {
+    background-image: url("./Neds.jpg");
+    background-size: cover;
+    height: 52rem;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    zoom: none;
+   
+    }
+
+  
+  .forheader {
+    z-index: 1;
+    border-top: 1px solid rgba(71, 42, 43, .15);
+    display: inline-block;
+    position: center;
+    left: 1%;
+    margin-top: 7%;
+    padding-top: 2%;
+    background-color: rgb(235, 235, 235);
+    width: 98%;
+    
+    
+  }
+  .food_details {
+   
+    display: block;
+    letter-spacing: 0.5px;
+    color: #472a2b;
+    font-family:'Scala Sans', sans-serif;
+    font-size:15px;
+    width: auto;
+    position:relative;
+    margin-bottom: 3%;
+    
+    padding-left: 5%;
+    padding-right: 3%;
+    height: auto;
+  }
+
+  .outline {
+  
+    display: inline;
+    width: 100%;
+   
+   
+    
+  }
+
+  .box {
+  
+    width: 100%;
+    display: inline;
+    position:relative;
+    justify-content: center;
+    font-family:'Scala Sans', sans-serif;
+    font-size: 28px;
+    color: #88746a;
+    border:none;
+    box-shadow: none;
+  }
+  
+  .content {
+    margin-left: 0%;
+    width: 100%;
+    display: inline;
+    position:relative;
+    justify-content: center;
+    font-family:'Scala Sans', sans-serif;
+    font-size: 17px;
+    color: #472a2b;
+    text-align: left;
+    padding-right: 2%;
+  }
+  
+  .selected {
+    width: 100%;
+    display: inline;
+    position:relative;
+    justify-content: center;
+    font-family:'Scala Sans', sans-serif;
+    font-size: 29px;
+    word-spacing: 50px;
+    color:rgb(163,2,52);
+    border:none;
+    border-top-right-radius: 5px;
+    box-shadow: none;
+    
+  
+  }
+  
+  .serving {
+    margin-left: 0%;
+    display: flex;
+    position: relative;
+    font-family: 'Scala Sans', sans-serif;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.847);
+    background-color: rgba(114, 99, 92, 0.395);
+    
+  
+  }
+  .calander{
+    left: 0%;
+    font-size: 21px;
+    letter-spacing: 6.5px;
+  }
+}
+
+@font-face {
+  font-family: 'Scala Sans';
+  src: url('./ScalaSans.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+  
