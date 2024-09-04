@@ -102,7 +102,7 @@ function Food_menu () {
                         <p><p className='type'>Entree</p> {get_week(date)[0][1][get_week(date)[1]].entree} </p> 
                         <p><p className='type'>Veg entree</p> {get_week(date)[0][1][get_week(date)[1]].veg_entree}</p> 
                         <p><p className='type'>Sides</p> {get_week(date)[0][1][get_week(date)[1]].sides}</p> 
-                        <p><p className='type'>Gluten Free</p> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</p> 
+                        <p><p className='type'>Gluten-Free</p> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</p> 
                         <p><p className='type'>Soup</p>{get_week(date)[0][3][get_week(date)[1]].soup}</p> 
                         <p><p className='type'>Food Bar</p> {get_week(date)[0][3][get_week(date)[1]].food_bar}</p> 
                     </ul>
