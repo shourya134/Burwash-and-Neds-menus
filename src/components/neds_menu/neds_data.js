@@ -96,7 +96,7 @@ const w1_friday_hot_food = new lunch_and_dinner(
     ['Breaded Haddock']//entree
     ,['Plant Based Nuggets (GF)(VGN)']//veg_entree
     ,['Coleslaw (GF)(VEG)',<br/>,'Tartar sauce (VGN)']//side
-    ,['Deluxe Personal Pizza Pepperoni \ Chicken (H)']//hot_sandwich
+    ,['Deluxe Personal Pizza Pepperoni / Chicken (H)']//hot_sandwich
     ,['Garden Vegetable Personal Pizza (VEG)']//veg_hot_sandwich
 )
 
@@ -228,7 +228,7 @@ const w3_monday_hot_food = new lunch_and_dinner(
     ,['Vegetable Lasagna (VEG)']//veg_entree
     ,['Balsamic Glazed Zucchini (GF)(VGN)',<br/>,'Garlic Bread – 2 pcs (VGN)']
     ,['Chicken Quesadilla (H)']//hot_sandwich
-    ,['Vegetable and Corn\Bean Quesadilla (VGN)']//veg_hot_sandwich
+    ,['Vegetable and Corn / Bean Quesadilla (VGN)']//veg_hot_sandwich
 )
 
 const w3_tuesday_hot_food = new lunch_and_dinner(

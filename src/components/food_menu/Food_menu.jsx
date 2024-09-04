@@ -29,20 +29,20 @@ function get_week (chosen_date) {
     const num_week = diff % 21;
     const num_day = diff % 7
     let curr_week;
-    let curr_num
+    
 
     if (num_week < 7){
         // choose week 1
         curr_week = weeks[0];
-        curr_num = 0
+
     } else if ((7 <= num_week) && (num_week < 14)){
         // choose week 2
         curr_week = weeks[1];
-        curr_num = 1
+        
     } else {
         // choose week 3
         curr_week = weeks[2];
-        curr_num = 2
+        
     }
 
     return([curr_week,num_day])
