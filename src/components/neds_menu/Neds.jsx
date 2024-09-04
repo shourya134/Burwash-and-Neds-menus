@@ -60,7 +60,7 @@ function Neds () {
     const handleClick = (event) => {setActive(event.target.id);}
     return (
         
-        <div className='App'>
+        <div className='App-1'>
             
             
             <header className='forheader'>
