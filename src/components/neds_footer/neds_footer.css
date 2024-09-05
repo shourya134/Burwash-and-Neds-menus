@@ -1,4 +1,4 @@
-.for-footer {
+.for-footer-1{
     display: flex;
     width: 100%;
     position: static;
@@ -11,7 +11,7 @@
     
 }
 
-.footer-text {
+.footer-text-1{
 
     margin-left: -5rem;
     margin-top: 8rem;
@@ -19,7 +19,7 @@
     position:static;
 }
 
-.footer-heading  {
+.footer-heading-1 {
     margin-top: 0;
     line-height: 1.625rem;
     font-size: 20px;
@@ -27,7 +27,7 @@
     
 }
 
-.content-footer  {
+.content-footer-1 {
     
     display: block;
     text-align: left;
@@ -43,7 +43,7 @@
 
 }
 
-.content-footer-2  {
+.content-footer-2-1 {
     display:block;
     text-align: left;
     color: #ffffff;;
@@ -60,7 +60,7 @@
 
 }
 
-.for-mail  {
+.for-mail-1 {
     display: block;
     position: relative;
     justify-content: center;
@@ -74,7 +74,8 @@
 
 }
 
-.subscribe {
+.subscribe-1 {
+    display:flex;
     background-color: #ffffff;
     color: #806C62;
     padding: 0.5rem 2.5rem;
@@ -87,11 +88,11 @@
     
 
 }
-.subscribe :hover {
+.subscribe-1:hover {
     background-color: #4a3e38;
     color: #ffffff;
 }
-.copyright  {
+.copyright-1 {
     
 
     font-family: 'Scala Sans';
@@ -101,7 +102,7 @@
     padding-bottom: 2rem;
 }
 
-.socials  {
+.socials-1 {
     display: block;
     color:#ffffff;
     border: none;
@@ -112,7 +113,7 @@
     
 }
 
-.icons  {
+.icons-1 {
     padding: .5rem;
     
     color: #ffffff;
@@ -122,13 +123,20 @@
 
 
 @media (max-width: 1200px) {
-    .for-footer {
+    .for-footer-1{
         display: block;
+        width: 100%;
+        position: static;
+        letter-spacing: 0.5px;
+        background:#806C62;
+        font-family: 'Scala Sans';
+        color: rgb(255, 255, 255);
+        justify-content: center;
         
     }
 
-    .footer-text {
-        margin-left: -2.5rem;
+    .footer-text-1{
+        margin-left: -3rem;
         padding-top: 2rem;
         margin-top: 0;
         text-align: center;
@@ -136,37 +144,37 @@
         font-family: 'Scala Sans';
         position:static;
     }
-    .content-footer {
+    .content-footer-1{
         display: block;
         text-align: center;
         margin-bottom: 1%;
     }
-    .content-footer-2 {
+    .content-footer-2-1{
         display: block;
         text-align: center;
         margin-bottom: 1%;
     }
-    .for-mail {
+    .for-mail-1{
         width: auto;
         margin-top: 2rem;
         margin-left: 0;
         justify-content: center;
         margin-bottom: 0rem;
     }
-    .socials  {
+    .socials-1 {
         display: flex;
         justify-content: center;
         margin-left: 0%;
         margin-top: 2rem;
     }
-    .icons  {
+    .icons-1 {
         padding-bottom: 2rem;
     }
 
 }
 
 @media (max-width:380px) {
-    .footer-text {
+    .footer-text-1{
         padding-top: 20rem;
     }
     

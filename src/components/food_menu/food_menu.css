@@ -2,13 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 .App {
-  background-image: url("./dininghall-2.jpg");
+  background-image: url("./dininghall-3.jpg");
   background-size: cover;
-  height: 52rem;
-  position: relative;
-  background-position: center;
+  height: auto;
+  position:static;
   background-repeat: no-repeat;
-  background-size: cover;
   zoom: none;
   margin-top: -10px;
   }
@@ -24,6 +22,7 @@
     width: 100%;
 }
 .forheader {
+    margin-top: 3rem;
     z-index: 2;
     border-top: 1px solid rgba(71, 42, 43, .15);
     display: inline-block;
@@ -136,8 +135,8 @@
   position:relative;
   justify-content: center;
   font-family:'Scala Sans', sans-serif;
-  font-size: 29px;
-  word-spacing: 50px;
+  font-size: 28px;
+  letter-spacing: 1px;
   color: #a30134;
   border:none;
   box-shadow: 0 3px #a30134;
@@ -197,14 +196,13 @@
 
   
   .App {
-    background-image: url("./dininghall.jpg");
+    background-image: url("./dininghall-3.jpg");
     background-size: cover;
-    height: 52rem;
-    position: relative;
-    background-position: center;
+    height: auto;
+    position:static;
     background-repeat: no-repeat;
-    background-size: cover;
     zoom: none;
+    margin-top: -10px;
    
     }
 
@@ -279,8 +277,8 @@
     position:relative;
     justify-content: center;
     font-family:'Scala Sans', sans-serif;
-    font-size: 29px;
-    word-spacing: 50px;
+    font-size: 28px;
+    letter-spacing: 1px;
     color:rgb(163,2,52);
     border:none;
     border-top-right-radius: 5px;

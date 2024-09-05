@@ -132,7 +132,7 @@ const w1_friday_lunch = new lunch(
 )
 
 const w1_saturday_lunch = new lunch(
-    ['Szechuan Chicken Stir-Fry (H)(GF)(DF) ']// entree
+    ['Szechuan Chicken Stir-Fry (H)(GF)(DF)']// entree
     ,['Szechuan Tofu Stir-Fry  (GF)(VGN)']//veg_entree
     ,['Vegetable Chow Mein (VGN) ',<br />,'Spring Rolls (VGN)',<br />,'Asian Vegetable Medley (GF)(VGN)']//sides
 )

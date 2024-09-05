@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-.App {
+.app-1 {
   background-image: url("./Neds.jpg");
   background-size: cover;
-  height: 52rem;
-  position: relative;
-  background-position: center;
+  height: auto;
+  position:static;
   background-repeat: no-repeat;
-  background-size: cover;
   zoom: none;
   margin-top: -10px;
   }
@@ -23,7 +21,8 @@
     z-index: 2;
     width: 100%;
 }
-.forheader {
+.for-header {
+    margin-top: 3rem;
     z-index: 2;
     border-top: 1px solid rgba(71, 42, 43, .15);
     display: inline-block;
@@ -61,7 +60,7 @@
     
 }
 
-.food_details {
+.food-details {
    
     display: flexbox;
     letter-spacing: 0.5px;
@@ -136,8 +135,8 @@
   position:relative;
   justify-content: center;
   font-family:'Scala Sans', sans-serif;
-  font-size: 29px;
-  word-spacing: 50px;
+  font-size: 28px;
+  letter-spacing: 1px;
   color: #a30134;
   border:none;
   box-shadow: 0 3px #a30134;
@@ -196,20 +195,19 @@
 @media (max-width: 1200px) {
 
   
-  .App {
-    background-image: url("./Neds.jpg");
+  .app-1 {
+     background-image: url("./Neds.jpg");
     background-size: cover;
-    height: 52rem;
-    position: relative;
-    background-position: center;
+    height: auto;
+    position:static;
     background-repeat: no-repeat;
-    background-size: cover;
     zoom: none;
+    margin-top: -10px;
    
     }
 
   
-  .forheader {
+  .for-header {
     z-index: 1;
     border-top: 1px solid rgba(71, 42, 43, .15);
     display: inline-block;
@@ -222,7 +220,7 @@
     
     
   }
-  .food_details {
+  .food-details {
    
     display: block;
     letter-spacing: 0.5px;
@@ -279,8 +277,8 @@
     position:relative;
     justify-content: center;
     font-family:'Scala Sans', sans-serif;
-    font-size: 29px;
-    word-spacing: 50px;
+    font-size: 28px;
+    letter-spacing: 1px;
     color:rgb(163,2,52);
     border:none;
     border-top-right-radius: 5px;

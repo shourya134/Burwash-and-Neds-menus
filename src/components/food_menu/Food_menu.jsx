@@ -1,11 +1,8 @@
-import React from 'react'
 import { weeks } from './menu_data'
 import './food_menu.css'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-
-
-const {useState} = React;
+import { useState } from 'react';
 
 
 
@@ -73,7 +70,7 @@ function Food_menu () {
                     
                     <a className='link' href='https://www.vicu.utoronto.ca/hospitality-services/'> Hospitality Services </a> / <a className='link' href='https://www.vicu.utoronto.ca/hospitality-services/student-meal-plans-and-dining-hall-menus/'> Student Meal Plans & Dining Hall Menus </a> / Burwash Dining hall <br /> <br />
 
-                    For over 100 years, Burwash Dining Hall has been a welcoming space for students to connect and enjoy a diverse, all-you-care-to-eat menu featuring everything from Belgian waffles to vegetarian and Halal options.
+                    For over 100 years, Burwash Dining Hall has been a welcoming space for students to connect and enjoy a diverse, all-you-care-to-eat menu featuring everything from Belgian waffles to vegetarian and Halal options. <br />
                     <br />Click the calendar below to discover our upcoming menus and bon appétit! <br />
                     <br /> <DatePicker className='calander' minDate={init_date} wrapperClassName="datePicker"  selected={date} onChange={(date) => setDate(date)} /> <br />
                         <br /> Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan
