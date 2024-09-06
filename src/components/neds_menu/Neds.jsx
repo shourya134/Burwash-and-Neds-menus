@@ -57,7 +57,10 @@ function Neds () {
     const [date, setDate] = useState(new Date());
     // add input for defailt state
     const [active, setActive] = useState("1");
-    const handleClick = (event) => {setActive(event.target.id);}
+    const handleClick = (event) => {
+        setActive(event.target.id);
+        
+    }
     return (
         
         <div className='app-1'>
@@ -78,17 +81,22 @@ function Neds () {
                         <br /> Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan
                     </p>
                 
-                <div className='outline'>
+                <div className={get_week(date)[1] < 5 ? 'outline' : 'vanish' }>
                     
                         <button key={1} id={'1'} className={active === "1" ? "selected" : 'box'} onClick={handleClick}>Breakfast</button>
                         <button key={2} id={'2'} className={active === "2" ? "selected" : 'box'} onClick={handleClick}>Lunch & Dinner</button>
-                        {/*<button key={3} id={'3'} className={active === "3" ? "selected" : 'box'} onClick={handleClick}>Dinner</button>*/}
+                        {/*<button key={3} id={'3'} className={active === "3" ? "outline" : 'box'} onClick={handleClick}>Dinner</button>*/}
 
                 
                 </div>
-                <div className={active === "1" ? 'serving' : 'vanish'}>
+
+                <div className={get_week(date)[1] > 4 ? 'serving' : 'vanish' }>
+                    <p className='weekend'>  Ned’s café is closed on weekends and public holidays </p>
+
+                </div>
+                <div className={((active === "1") && (get_week(date)[1] < 5)) ? 'serving' : 'vanish'}>
                     <ul className='content'>
-                        <p><p className='type'>All Day</p>{get_week(date)[0][0][get_week(date)[1]].all_day} </p>
+                        <p><p className='type'>All Day</p> Pastries, Hot & Cold Beverages, Yogurt, Milk, Whole Fruits, Snacks, and Desserts</p>
                         <p><p className='type'>Breakfast Sandwich</p>{get_week(date)[0][0][get_week(date)[1]].breakfast_sandwich} </p> 
                         {/*<p><p className='type'>Soup</p> {get_week(date)[0][0][get_week(date)[1]].soup}</p> 
                         <p><p className='type'>Deli Sandwich</p> {get_week(date)[0][0][get_week(date)[1]].deli_sandwich}</p> 
@@ -96,7 +104,7 @@ function Neds () {
                          
                     </ul>
                 </div>
-                <div className={active === "2" ? 'serving' : 'vanish'}>
+                <div className={((active === "2") && (get_week(date)[1] < 5)) ? 'serving' : 'vanish'}>
                     <ul className='content'>
                         <p><p className='type'>Soup</p> {get_week(date)[0][0][get_week(date)[1]].soup}</p> 
                         <p><p className='type'>Deli Sandwich</p> {get_week(date)[0][0][get_week(date)[1]].deli_sandwich}</p> 

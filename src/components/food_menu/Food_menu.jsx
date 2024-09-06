@@ -73,7 +73,7 @@ function Food_menu () {
                     For over 100 years, Burwash Dining Hall has been a welcoming space for students to connect and enjoy a diverse, all-you-care-to-eat menu featuring everything from Belgian waffles to vegetarian and Halal options. <br />
                     <br />Click the calendar below to discover our upcoming menus and bon appétit! <br />
                     <br /> <DatePicker className='calander' minDate={init_date} wrapperClassName="datePicker"  selected={date} onChange={(date) => setDate(date)} /> <br />
-                        <br /> Legend: (H)– Halal, (GF) – Gluten Free, (DF) – Dairy Free, (VEG) – Vegetarian, (VGN) – Vegan
+                        <br /> Legend: (H)– Halal, (GF) – Gluten-Free, (DF) – Dairy-Free, (VEG) – Vegetarian, (VGN) – Vegan
                     </p>
                 
                 <div className='outline'>
@@ -91,7 +91,7 @@ function Food_menu () {
                         <p><p className='type'>Sweet breakfast</p> {get_week(date)[0][0][get_week(date)[1]].sweet_breakfast}</p> 
                         <p><p className='type'>Potato</p> {get_week(date)[0][0][get_week(date)[1]].potato}</p> 
                         <p><p className='type'>Protien</p> {get_week(date)[0][0][get_week(date)[1]].protien}</p> 
-                        <p><p className='type'>Plant Based</p> {get_week(date)[0][0][get_week(date)[1]].plant_based}</p> 
+                        <p><p className='type'>Plant-Based</p> {get_week(date)[0][0][get_week(date)[1]].plant_based}</p> 
                     </ul>
                 </div>
                 <div className={active === "2" ? 'serving' : 'vanish'}>
@@ -109,7 +109,7 @@ function Food_menu () {
                         <p><p className='type'>Entree</p> {get_week(date)[0][2][get_week(date)[1]].entree} </p> 
                         <p><p className='type'>Veg entree</p> {get_week(date)[0][2][get_week(date)[1]].veg_entree}</p> 
                         <p><p className='type'>Sides</p> {get_week(date)[0][2][get_week(date)[1]].sides}</p> 
-                        <p><p className='type'>Gluten Free</p> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</p> 
+                        <p><p className='type'>Gluten-Free</p> {get_week(date)[0][3][get_week(date)[1]].gluten_free}</p> 
                         <p><p className='type'>Soup </p>{get_week(date)[0][3][get_week(date)[1]].soup}</p> 
                         <p><p className='type'>Food Bar</p> {get_week(date)[0][3][get_week(date)[1]].food_bar}</p> 
                         

@@ -3,7 +3,7 @@ import React from 'react';
 import {BDH} from './BDH'
 import {NC} from './NC'
 import { Routes, Route } from 'react-router-dom';
-import { DiVim } from 'react-icons/di';
+
 
 function App() {
   return (

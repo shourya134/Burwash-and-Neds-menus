@@ -23,7 +23,7 @@ class lunch_and_dinner{
 //breakfast-------------------------------------
 
 const w1_monday_breakfast = new Breakast(
-    ['Pastries',<br/>, 'Hot & ColdBeverages',<br/>, ' Yogurt',<br/>, ' Milk',<br/>, ' Whole Fruits',<br/>, ' Snacks and Desserts']//all_day
+    ['Pastries',<br/>, 'Hot & ColdBeverages',<br/>, ' Yogurt, Milk',<br/>, ' Whole Fruits',<br/>, ' Snacks and Desserts']//all_day
     ,['Egg and Cheese on Bagel or English Muffin',<br/>,'Toasted Bagel with Cream Cheese']//breakfast_sandwich
     ,['Harvest Vegetable Barley (VGN)',<br/>,'Turkey Noodle (H) (DF)']//soup
     ,['Classic Egg Salad (VEG) / Hummus and Roast Vegetables (VGN) / Tuna Salad / Roast Turkey and Cheddar Cheese (H)']//deli_sandwich

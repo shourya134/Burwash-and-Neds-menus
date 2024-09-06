@@ -175,7 +175,7 @@
   font-size: 28px;
   color: #5f2e28;
   border:solid 2px #02020252;
-  background-color: rgba(114, 99, 92, 0.395);
+  background-color: rgba(255, 255, 255, 0.395);
   text-align: center;
   letter-spacing: 10px;
   font-weight: 600;
@@ -189,6 +189,18 @@
   font-weight: 600;
   margin-bottom:2px;
   text-decoration: underline;
+}
+
+.weekend{
+  display: block;
+  position: relative;
+  width: 100%;
+  font-weight: 100;
+  margin-bottom:2px;
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 
@@ -302,6 +314,9 @@
     left: 0%;
     font-size: 21px;
     letter-spacing: 6.5px;
+  }
+  .weekend{
+    font-size: 20px;
   }
 }
 
